@@ -1,0 +1,62 @@
+/* Page */
+
+.page {
+	margin: 5mm 0 0;
+	width: 210mm;
+	background: grey;
+	}
+
+/* sticker */
+
+.sticker {
+	box-sizing: border-box;
+	float: left;
+	padding: 4mm 2mm 2mm 6mm;
+	width: 50%;
+	height: 48mm;
+	background: white;
+	box-shadow: 0 0 0 0.1mm grey inset;
+	font-family: Ubuntu, sans-serif;
+	}
+
+
+/* Full */
+
+.sticker__full {
+	margin: 5mm 0 2mm 2mm;
+	color: #000;
+	font-weight: 300;
+	font-size: 14pt;
+	}
+
+/* Name */
+
+.sticker__name {
+	display: block;
+  margin-bottom: 2mm;
+  font-weight: bold;
+	}
+
+/* City */
+
+.sticker__city {
+	white-space: nowrap;
+}
+
+/* Index */
+
+.sticker__index {
+	margin: 5mm 0 0 2mm;
+	color: #000;
+	font-size: 14pt;
+	font-weight: bold;
+	}
+
+/* Print */
+
+@media print {
+  .sticker {
+    -webkit-print-color-adjust: exact;
+    text-rendering: geometricPrecision;
+    }
+  }
